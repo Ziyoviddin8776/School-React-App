@@ -1,0 +1,33 @@
+
+.footer{
+    background-color: #231f20;
+    padding: 4rem 0;
+    .box{
+        display: flex;
+        justify-content: space-between;
+        div{
+            .title{
+                color: white;
+                font-size: 1.8rem;
+            }
+            ul{
+                margin-top: 2rem;
+                li{
+                    list-style: none;
+                    margin-top: 1.5rem;
+                    a{
+                        text-decoration: none;
+                        color: #8f958d;
+                        font-size: 1.4rem;
+                        transition: all 0.2s;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
